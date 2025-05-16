@@ -11,5 +11,6 @@ public class Main {
 
         Employee emp  = new Employee("Anand", 27, 28000, 6000);
         emp.introduce();
+        System.out.println("Calculated Salary: " + emp.calculateSalary());
     }
 }
