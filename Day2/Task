@@ -1,0 +1,15 @@
+| # | Task                         | What to practise                    | Hints / Acceptance criteria                                                                                                                                                                       |
+| - | ---------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 | **Create a `Book` class**    | Declaring classes, fields           | • Fields: `title`, `author`, `price`  <br>• Write a `main` method that instantiates two `Book` objects and prints their details                                                                   |
+
+| 2 | **Constructor overloading**  | Constructors                        | • Add two constructors to `Book`:<br>  1️⃣ no-arg constructor sets default values<br>  2️⃣ all-args constructor sets every field                                                                   |
+
+| 3 | **Method overloading**       | Compile-time polymorphism           | • Add two `discount(double percent)` methods in `Book`:<br>  • one that takes `double percent`<br>  • one that also takes a `boolean isFestiveOffer` and doubles the discount if `true`           |
+
+| 4 | **Encapsulation**            | Getters / setters, access modifiers | • Make fields `private` <br>• Generate `getTitle()`, `setPrice(double)` <br>• Try accessing `book.price` directly from `main` (compiler must reject)                                              |
+
+| 5 | **Create a `Student` class** | Objects, `toString()`               | • Fields: `rollNo`, `name`, `marks[]` (array of 5 ints) <br>• Constructor populates all fields <br>• `double getAverage()` returns mean marks <br>• Override `toString()` to print a neat summary |
+
+| 6 | **Object interactions**      | Using objects inside other objects  | • Add a `Library` class that holds an `ArrayList<Book>` <br>• Methods: `addBook(Book)`, `listBooks()` <br>• In `main`, create a `Library`, add books, call `listBooks()`                          |
+
+| ★ | **Stretch goal** (optional)  | Reusability                         | • Move `Book`, `Student`, and `Library` into their own package (e.g., `com.arun.models`) and import them in a separate `App` class                                                                |
